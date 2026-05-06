@@ -1,7 +1,7 @@
 # Hotel Listing Platform - Stage 1
 
 ## Project Overview
-This project is currently in **Stage 1** of development. The goal is to build a web application for listing new hotels, as well as editing and deleting hotel entries. The stack includes Node.js, Express, and EJS for templating.
+This project is currently in **Stage 1** of development. This project is a web application that allows users to create, view, edit, and delete hotel listings, each with details like title, description, image, price, location, and country. It uses Node.js, Express, MongoDB, and EJS to manage hotel data and provide a user-friendly interface for managing listings.
 
 ## Current Features
 - Add new hotel listings
