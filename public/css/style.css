@@ -1,0 +1,132 @@
+body {
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+.navbar{
+    height:5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size:2rem;
+}
+
+.nav-link{
+    color: #222222 !important;    /* so that it can over power custom bootstrap styling */
+}
+
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: #222222;
+}
+
+
+.f-info-links{
+    width:100%;
+}
+
+.f-info-socials{
+    width:100%;
+    font-size:1.2rem;
+}
+
+
+
+.f-info-socials i{
+    margin-right:0.5rem;
+}
+
+.f-info{
+    text-align:center;
+    display:flex;
+    height:8rem;
+    background-color: #cbebeb;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+
+.content-wrapper{
+    padding-left: 7.5rem !important;
+    padding-right:7.5rem !important;
+}
+
+
+
+
+.card{
+    border: none !important;
+    margin-bottom:2rem;
+   
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width:100% !important;
+    object-fit: cover !important;
+    
+}
+
+.card-body{
+    padding:0 !important;
+   
+}
+
+.card-text p{
+    font-weight: 400 !important;
+    
+}
+
+
+.listing-link{
+    text-decoration: none !important;
+}
+
+
+.card-img-overlay{
+    opacity:0;
+}
+
+
+.card-img-overlay:hover{
+    background-color: white;;
+    opacity:0.2;
+    
+}
+
+
+.custom-input:focus{
+    border: 2px solid black !important;
+}
+
+
+
+.show-image{
+    height:37vh;
+}
+
+.newbutton{
+    display:flex;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.index-h3{
+    padding-top:2rem;
+}
